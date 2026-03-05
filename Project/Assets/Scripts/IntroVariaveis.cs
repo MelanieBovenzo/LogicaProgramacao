@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class IntroVariaveis : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string nomeJogador;
+    public int idadeJogador;
+    public float alturaJogador;
+    public bool jogadorEstuda;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start() {
+        Debug.Log(nomeJogador);
+        Debug.Log(idadeJogador);
+        Debug.Log(alturaJogador);
+        Debug.Log(jogadorEstuda);
     }
 }
