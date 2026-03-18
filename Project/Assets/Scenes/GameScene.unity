@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 1764546177}
   - component: {fileID: 1764546176}
   - component: {fileID: 1764546175}
+  - component: {fileID: 1764546187}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -293,7 +294,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764546170}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa1dfb2231d92b246a4f23f273f57e49, type: 3}
   m_Name: 
@@ -444,6 +445,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Exercicio01
   a: 60
   b: 7
+--- !u!114 &1764546187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764546170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c3c3a2555da7104f90f66af0046a160, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JogoDado
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

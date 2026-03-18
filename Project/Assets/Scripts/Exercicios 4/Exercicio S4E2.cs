@@ -7,9 +7,10 @@ public class ExercicioS4E2 : MonoBehaviour
     void Start()
     {
         vida -= dano;
-        if (vida <= 50) ;
+        if (vida <= 50)
         {
             print("Cuidado!");
+            Random.Range(0,6);
         }
     }
 
