@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExercicioS4E5 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private int energia = 30;
     void Start()
     {
         
@@ -11,6 +11,9 @@ public class ExercicioS4E5 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (energia < 20)
+        {
+            print("Sem energia suficiente");
+        }
     }
 }

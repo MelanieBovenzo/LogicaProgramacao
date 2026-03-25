@@ -6,17 +6,19 @@ public class ExercicioS4E2 : MonoBehaviour
     [SerializeField] private int dano = 10;
     void Start()
     {
-        vida -= dano;
-        if (vida <= 50)
-        {
-            print("Cuidado!");
-            Random.Range(0,6);
-        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.anyKeyDown)
+        {
+            vida -= dano;
+            if (vida <= 50)
+            {
+                print("Cuidado!");
+            }
+        }
     }
 }

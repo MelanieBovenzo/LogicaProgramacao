@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExercicioS4E7 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] bool temChave = false;
     void Start()
     {
         
@@ -11,6 +11,13 @@ public class ExercicioS4E7 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (temChave) 
+        {
+            print("porta aberta");
+        }
+        else
+        {
+            print("porta fechada");
+        }
     }
 }

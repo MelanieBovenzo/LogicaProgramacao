@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExercicioS4E10 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float tempo = 120f;
     void Start()
     {
         
@@ -11,6 +11,14 @@ public class ExercicioS4E10 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        --tempo;
+        if (tempo <= 0)
+        {
+            print("Tempo esgotado");
+        }
+        else
+        {
+            print(tempo);
+        }
     }
 }

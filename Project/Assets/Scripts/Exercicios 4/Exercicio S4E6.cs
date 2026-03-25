@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ExercicioS4E6 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    int danoBase = 10;
+    bool criico = true;
     void Start()
     {
         
@@ -11,6 +12,9 @@ public class ExercicioS4E6 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (criico)
+        {
+            print(danoBase * 2);
+        }
     }
 }

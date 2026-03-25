@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExercicioS4E3 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int pontos = 101;
     void Start()
     {
         
@@ -11,6 +11,9 @@ public class ExercicioS4E3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (pontos > 100)
+        {
+            print("Você Venceu!");
+        }
     }
 }
