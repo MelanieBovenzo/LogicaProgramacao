@@ -14,7 +14,7 @@ public class EW7 : MonoBehaviour
             {
                 print("Metade do caminho!");
             }
-            i++;
+            moedas++;
         }
     }
 

@@ -7,6 +7,7 @@ public class EW3 : MonoBehaviour
     void Start()
     {
         int energia = 5;
+        int i = 0;
 
         while (i >= 0)
         {

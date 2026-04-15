@@ -18,7 +18,7 @@ public class EW6 : MonoBehaviour
             {
                 print("Jogador Morto");
             }
-            i--;
+            vidas--;
         }
     }
 
